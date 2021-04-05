@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>2 Side PLL Recognition Practice</title>
+<link rel="stylesheet" type="text/css" href="site.css"/>
+</head>
+<script src="modules/cube.js"></script>
+<script src="modules/perms.js"></script>
+<script src="modules/solution_ss.js"></script>
+<script src="2sidepll.js"></script>
+<body onload="init()">
+<div id="main">
+<table id="layoutTable">
+	<tr>
+		<th>Problem</th>
+		<th>Solution</th>
+	</tr>
+    <tr>
+    	<td align="center" class="canvasCell"><canvas id="cubeCanvas" width="200" height="200"></canvas></td>
+		<td class="solutionCell">
+	    	<div id="solutionHeader"></div>
+	    	<div id="solutionSteps"></div>
+	    	<div id="solution"></div>
+		</td>
+	</tr>
+	<tr><td><table id="buttonTable">
+		<tr><td colspan=7 align="center">
+	        <input id="reveal" type="button" class="action" value="Reveal"/>
+	        <input id="next" type="button" class="action" value="Next"/>
+	        </td></tr>
+        </table></td>
+	</tr>
+</table>
+</div>
+</body>
+</html>

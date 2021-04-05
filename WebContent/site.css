@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+input[type="button"] {
+	font: 14px Verdana;
+	border: 2px solid #DDD;
+    padding: 5px 5px;
+    margin: 0 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+table {
+	font: 14px Verdana;
+}
+
+th {
+	font: 18px Verdana;
+	font-weight: bold;
+	padding: 10px 0px 10px;
+}
+
+.guess {
+    background-color: white;
+    color: black;
+    width: 4em;
+}
+
+.guess:hover {
+	background-color: #DDD;
+}
+
+.guess:disabled {
+    background-color: white;
+    color: gray;
+    width: 4em;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    width: 4em;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+    width: 4em;
+}
+
+.action {
+    background-color: black;
+    color: white;
+    width: 8em;
+}
+
+.action:disabled {
+    background-color: gray;
+    color: white;
+    width: 8em;
+}
+
+.canvasCell {
+	border: 1px solid black;
+}
+
+.solutionCell {
+	vertical-align: top;
+	border: 1px solid black;
+	padding: 4px 4px;
+}
+
+#solutionHeader {
+	width: 30em;
+	font-weight: bold;
+}
+
+.solutionHidden {
+	color: gray;
+}
+
+.solutionRevealed {
+	color: black;
+}
+
+#solutionSteps {
+}
+
+#solution {
+	font-weight: bold;
+	color: green;
+}
